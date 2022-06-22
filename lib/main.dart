@@ -41,6 +41,13 @@ class MyApp extends StatelessWidget {
                     letterSpacing: 2.5,
                   ),
                 ),
+                SizedBox(
+                  height: 20.0,
+                  width: 150.0,
+                  child: Divider(
+                    color: Colors.teal.shade100,
+                  ),
+                ),
                 Card(
                     margin: const EdgeInsets.symmetric(
                       vertical: 10.0,
