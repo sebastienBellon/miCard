@@ -43,55 +43,38 @@ class MyApp extends StatelessWidget {
               ),
             ),
             Card(
-              color: Colors.white,
-              margin: const EdgeInsets.symmetric(
-                vertical: 10.0,
-                horizontal: 25.0,
-              ),
-              child: Padding(
-                padding: const EdgeInsets.all(25.0),
-                child: Row(
-                  children: <Widget>[
-                    const Icon(Icons.phone, color: Colors.teal),
-                    const SizedBox(
-                      width: 10.0,
-                    ),
-                    Text(
-                      "+41 79 755 74 77",
-                      style: TextStyle(
-                        color: Colors.teal.shade900,
-                        fontFamily: 'SourceSansPro',
-                        fontSize: 20.0,
-                      ),
-                    )
-                  ],
+                color: Colors.white,
+                margin: const EdgeInsets.symmetric(
+                  vertical: 10.0,
+                  horizontal: 25.0,
                 ),
-              ),
-            ),
+                child: ListTile(
+                  leading: const Icon(Icons.phone, color: Colors.teal),
+                  title: Text(
+                    "+41 79 755 74 77",
+                    style: TextStyle(
+                      color: Colors.teal.shade900,
+                      fontFamily: 'SourceSansPro',
+                      fontSize: 20.0,
+                    ),
+                  ),
+                )),
             Card(
               color: Colors.white,
               margin: const EdgeInsets.symmetric(
                 vertical: 10.0,
                 horizontal: 25.0,
               ),
-              child: Padding(
-                padding: const EdgeInsets.all(25.0),
-                child: Row(
-                  children: <Widget>[
-                    const Icon(
-                      Icons.mail,
-                      color: Colors.teal,
-                    ),
-                    const SizedBox(
-                      width: 10.0,
-                    ),
-                    Text(
-                      'sebastien.bellon@outlook.com',
-                      style: TextStyle(
-                        color: Colors.teal.shade900,
-                      ),
-                    ),
-                  ],
+              child: ListTile(
+                leading: const Icon(
+                  Icons.mail,
+                  color: Colors.teal,
+                ),
+                title: Text(
+                  'sebastien.bellon@outlook.com',
+                  style: TextStyle(
+                    color: Colors.teal.shade900,
+                  ),
                 ),
               ),
             ),
