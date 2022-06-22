@@ -16,10 +16,13 @@ class MyApp extends StatelessWidget {
         backgroundColor: Colors.teal,
         body: SafeArea(
           child: Column(children: <Widget>[
-            const CircleAvatar(
-              radius: 50,
-              backgroundColor: Colors.red,
-              backgroundImage: AssetImage('images/avatar.jpg'),
+            const Padding(
+              padding: EdgeInsets.all(15.0),
+              child: CircleAvatar(
+                radius: 50,
+                backgroundColor: Colors.red,
+                backgroundImage: AssetImage('images/avatar.jpg'),
+              ),
             ),
             const Text(
               'Sébastien Bellon',
