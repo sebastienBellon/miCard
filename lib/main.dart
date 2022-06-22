@@ -21,6 +21,14 @@ class MyApp extends StatelessWidget {
               backgroundColor: Colors.red,
               backgroundImage: AssetImage('images/avatar.jpg'),
             ),
+            Text(
+              'Sébastien Bellon',
+              style: TextStyle(
+                  fontSize: 40.0,
+                  color: Colors.white,
+                  fontWeight: FontWeight.bold,
+                  fontFamily: 'Pacifico'),
+            ),
           ]),
         ),
       ),
