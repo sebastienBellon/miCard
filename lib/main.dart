@@ -41,16 +41,16 @@ class MyApp extends StatelessWidget {
             ),
             Card(
               color: Colors.white,
-              margin: EdgeInsets.symmetric(
+              margin: const EdgeInsets.symmetric(
                 vertical: 10.0,
                 horizontal: 25.0,
               ),
               child: Padding(
-                padding: EdgeInsets.all(25.0),
+                padding: const EdgeInsets.all(25.0),
                 child: Row(
                   children: <Widget>[
-                    Icon(Icons.phone, color: Colors.teal),
-                    SizedBox(
+                    const Icon(Icons.phone, color: Colors.teal),
+                    const SizedBox(
                       width: 10.0,
                     ),
                     Text(
@@ -67,19 +67,19 @@ class MyApp extends StatelessWidget {
             ),
             Card(
               color: Colors.white,
-              margin: EdgeInsets.symmetric(
+              margin: const EdgeInsets.symmetric(
                 vertical: 10.0,
                 horizontal: 25.0,
               ),
               child: Padding(
-                padding: EdgeInsets.all(25.0),
+                padding: const EdgeInsets.all(25.0),
                 child: Row(
                   children: <Widget>[
-                    Icon(
+                    const Icon(
                       Icons.mail,
                       color: Colors.teal,
                     ),
-                    SizedBox(
+                    const SizedBox(
                       width: 10.0,
                     ),
                     Text(
