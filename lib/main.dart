@@ -43,7 +43,6 @@ class MyApp extends StatelessWidget {
               ),
             ),
             Card(
-                color: Colors.white,
                 margin: const EdgeInsets.symmetric(
                   vertical: 10.0,
                   horizontal: 25.0,
@@ -60,7 +59,6 @@ class MyApp extends StatelessWidget {
                   ),
                 )),
             Card(
-              color: Colors.white,
               margin: const EdgeInsets.symmetric(
                 vertical: 10.0,
                 horizontal: 25.0,
